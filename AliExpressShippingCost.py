@@ -24,16 +24,16 @@ def format_output(text=" "):
             print(text[i] + "   " + text[i+1])
 
 
-# while "https://www.aliexpress.com/item/" not in adress:
-#     adress = input("Please enter your url : ")
-#     if "https://www.aliexpress.com/item/" in adress:
-#         break
-#     print("Enter a proper aliexpress url please.")
-#     print()
+while "https://www.aliexpress.com/item/" not in adress:
+    adress = input("Please enter your url : ")
+    if "https://www.aliexpress.com/item/" in adress:
+        break
+    print("Enter a proper aliexpress url please.")
+    print()
 
-# adress = adress.strip('"')
+adress = adress.strip('"')
 #adress = "https://www.aliexpress.com/item/32607702449.html"
-adress = "https://www.aliexpress.com/item/32552896653.html"
+#adress = "https://www.aliexpress.com/item/32552896653.html"
 
 print()
 print("This program will take a while to get all the values.")
